@@ -1,1 +1,74 @@
 @import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
+
+* {
+    font-family: 'Mulish', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+p {
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    opacity: 0;
+}
+
+.container {
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.images {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+    border-radius: 50px;
+    margin: 10px;
+    position: relative;
+    flex: 1;
+    cursor: pointer;
+}
+
+#img0 {
+    background-image: url('./assets/asset0.jpeg');    
+}
+
+#img1 {
+    background-image: url('./assets/asset1.jpeg');
+}
+
+#img2 {
+    background-image: url('./assets/asset2.jpeg');
+}
+
+#img3 {
+    background-image: url('./assets/asset3.jpeg');
+}
+
+#img4 {
+    background-image: url('./assets/asset4.jpeg');
+}
+
+.text-activated {
+    opacity: 1;
+}
+
+.image-opened {
+    flex: 10;
+    transition: flex 2s ease-in-out 2s;   
+}
+
