@@ -41,6 +41,7 @@ p {
     position: relative;
     flex: 1;
     cursor: pointer;
+    transition: flex .7s ease-in;
 }
 
 #img0 {
@@ -65,10 +66,10 @@ p {
 
 .text-activated {
     opacity: 1;
+    transition: opacity .7s .2s;
+
 }
 
 .image-opened {
     flex: 10;
-    transition: flex 2s ease-in-out 2s;   
 }
-
