@@ -1,7 +1,7 @@
 # 👨🏽‍💻 50 Projetos em 50 Dias com HTML, CSS e Javascript
 A ideia de 50 projetos em 50 dias surgiu ao visitar um post do Felipe Deschamps e eu achei uma excelente maneira de aplicar o HTML, CSS e JS na prática antes seguir para uma Lib ou Framework. 
 
-Importante dizer que não é meu intuito fazer todos os 50 projetos em 50 dias corridos, até porquê o meu tempo não permite. Mas é conseguir fazer em até 24 horas.
+Importante dizer que não necessariamente irei fazer todos os 50 projetos em 50 dias corridos, até porquê o meu tempo não permite. Mas é conseguir levar apenas 1 dia para conseguir finalizar cada um dessa lista.
 
 - [Link do post](https://www.tabnews.com.br/filipedeschamps/50-projetos-em-50-dias-utilizando-html-css-e-javascript)
 
