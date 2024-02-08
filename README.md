@@ -11,3 +11,4 @@ Aqui você pode ver o resultado final de cada projeto finalizado. Fique à vonta
 | # | Projeto | Demonstração |
 |:---: |:---: |:---: |
 | 01   | Expanding Cards   | [Live](https://50projects50days-beta.vercel.app/) |
+| 02   | Progess Steps   | Em produção... |
