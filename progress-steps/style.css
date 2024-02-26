@@ -34,10 +34,10 @@ body {
     margin-bottom: 30px;
 }
 
-.step-container::before {
+.progress-bar::before {
     content: '';
     display: block;
-    background-color: #e0e0e0;
+    background: linear-gradient(to right, #3498db 0%, #e0e0e0 0%);
     width: 350px;
     height: 4px;
     position: absolute;
@@ -56,10 +56,12 @@ body {
     align-items: center;
     background-color: #fff;
     color: #999999;
+    transition: .3s all;
 }
 
 .step-abled {
     border-color: #3498db;
+    transition: .3s all;
 }
 
 .btn {
