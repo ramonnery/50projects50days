@@ -32,6 +32,7 @@ body {
     align-items: center;
     position: relative;
     margin-bottom: 30px;
+    transition: 1s all
 }
 
 .progress-bar::before {
@@ -44,6 +45,45 @@ body {
     top: 50%;
     transform: translateY(-50%);
     z-index: -1;
+}
+
+.progress-bar-start::before {
+    content: '';
+    display: block;
+    background: linear-gradient(to right, #3498db 33%, #e0e0e0 0%);
+    width: 350px;
+    height: 4px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+    transition: 1s all
+}
+
+.progress-bar-mid::before {
+    content: '';
+    display: block;
+    background: linear-gradient(to right, #3498db 66%, #e0e0e0 0%);
+    width: 350px;
+    height: 4px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+    transition: 1s all
+}
+
+.progress-bar-end::before {
+    content: '';
+    display: block;
+    background: linear-gradient(to right, #3498db 99%, #e0e0e0 0%);
+    width: 350px;
+    height: 4px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+    transition: 1s all
 }
 
 .steps {
